@@ -37,7 +37,7 @@ if platform == "linux":
     subprocess.call(['/bin/bash', PathConst.grafana_init_script])
     subprocess.call(['/bin/bash', PathConst.grafana_start_script])
 
-time.sleep(15)
+time.sleep(30)
 
 # password
 account_service = AccountService()
